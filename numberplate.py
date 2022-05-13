@@ -16,3 +16,17 @@ display = utils.notebook_init()  # checks
 
 #detecting
 !python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.25 --source /content/city.jpeg --save-crop
+
+#installing pytesseract
+!pip install pytesseract
+!sudo apt install tesseract-ocr
+
+#importing pytesseract and cv2
+import pytesseract
+import cv2
+
+#extracting the text from the image
+text = pytesseract.image_to_string("/content/yolov5/runs/detect/exp/crops/numberplate/city.jpg")
+print(text)
+
+
