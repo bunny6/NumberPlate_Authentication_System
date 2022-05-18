@@ -9,3 +9,5 @@ Step 3 : Third step is that we do anthentication matching using Postgresql.
 Step 4 : Fourth step, we create a dashboard in front end for managing the numberplates.
 
 Step 5 : Final step, we will deploy the project on front end.
+
+<img src="Documents/flowchart_OCR.png">
