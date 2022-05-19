@@ -1,4 +1,6 @@
-# NumberPlate_Authentication_System
+# NumberPlate_Authentication_System_Using_Yolov5_And_OCR.
+
+Steps which are followed in the project:
 
 Step 1 : Download images,clean the images and label them using labelImg and then we pass them into YoloV5 for NumberPlate Detection.
 
@@ -10,4 +12,4 @@ Step 4 : Fourth step, we create a dashboard in front end for managing the number
 
 Step 5 : Final step, we will deploy the project on front end.
 
-<img src="Documents/flowchart_OCR.png">
+<img src="Documents/ocr_flowchart.png">
