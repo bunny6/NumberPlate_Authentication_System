@@ -12,4 +12,4 @@ Step 4 : Fourth step, we create a dashboard in front end for managing the number
 
 Step 5 : Final step, we will deploy the project on front end.
 
-<img src="Documents/ocr_flowchart.png">
+<img src="Documents/001.png">
